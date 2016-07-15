@@ -66,7 +66,7 @@ openssl req \
     -reqexts SAN \
     -config "$sslcnf"
 
-letsencrypt certonly \
+/opt/letsencrypt/letsencrypt certonly \
     --authenticator manual \
     --server https://acme-v01.api.letsencrypt.org/directory --text \
     --config-dir letsencrypt/etc --logs-dir letsencrypt/log \
