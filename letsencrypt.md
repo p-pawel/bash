@@ -14,12 +14,11 @@ then install by cloning the following:
 
 ### Automating script
 
-Download script (as copied from https://tty1.net/blog/2015/using-letsencrypt-in-manual-mode_en.html) and adjust "country"
-"state", "town" and "email".
+Download script `letsencrypt/gencert.sh` (as copied from https://tty1.net/blog/2015/using-letsencrypt-in-manual-mode_en.html) and adjust "country", "state", "town" and "email".
 
 `wget https://raw.githubusercontent.com/p-pawel/devops/master/letsencrypt/gencert.sh`
 
-If necessary adjust path to "letsencrypt" or add it to PATH enviroment variable.
+If necessary adjust path to "letsencrypt" or add its location to PATH enviroment variable.
 
 ## Certification
 
